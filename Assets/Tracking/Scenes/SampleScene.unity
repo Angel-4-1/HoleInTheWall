@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44881773, g: 0.49887985, b: 0.5756963, a: 1}
+  m_IndirectSpecularColor: {r: 0.44881815, g: 0.4988801, b: 0.57569665, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -389,7 +389,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.08488091, y: -0.22611901, z: 0.019782858, w: 0.9701928}
-  m_LocalPosition: {x: 797, y: 559, z: -1252}
+  m_LocalPosition: {x: 711, y: 279, z: -1349}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 8432299956399443801, guid: cad41007489978d44aebb59e80115ee2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -93
+      value: -411
       objectReference: {fileID: 0}
     - target: {fileID: 8432299956399443801, guid: cad41007489978d44aebb59e80115ee2,
         type: 3}
@@ -633,7 +633,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736581562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.013855, y: 279, z: -155.06311}
+  m_LocalPosition: {x: 6.013855, y: -56.59105, z: -155.06311}
   m_LocalScale: {x: 19.605547, y: 12.162341, z: 28.378798}
   m_Children:
   - {fileID: 569096268}
@@ -873,7 +873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866325391}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42, y: 244, z: 2207}
+  m_LocalPosition: {x: -42, y: -96, z: 3708}
   m_LocalScale: {x: 800, y: 400, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1086,7 +1086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028807571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46, y: -43, z: 1784}
+  m_LocalPosition: {x: -46, y: -376, z: 1784}
   m_LocalScale: {x: 800, y: 150, z: 4000}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1137,6 +1137,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056417939954621459, guid: 7c69ffafb0fb5d8419494d2d906f11aa,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8309525876403354942, guid: 7c69ffafb0fb5d8419494d2d906f11aa,
         type: 3}
