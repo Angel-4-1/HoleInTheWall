@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - person
+  - wall
+  - destroyWall
   layers:
   - Default
   - TransparentFX
