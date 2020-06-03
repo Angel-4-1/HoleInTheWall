@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canSpawn: 1
-  wall0: {fileID: 7537599963206572042, guid: 54b4f92447090b24c8c3f065ff816f57, type: 3}
-  wall1: {fileID: 3446330400947458219, guid: 421b092b55780084b813f4bbb33f67dc, type: 3}
-  wall2: {fileID: 4153323324824809117, guid: 6e7eb11e1edf68a4988c120a94cd9fcf, type: 3}
+  wall0: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall1: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall2: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
   wall3: {fileID: 1704586038158245633, guid: ea672ae6902ef1142861ccd62cf5edbe, type: 3}
   wall4: {fileID: 7537599963206572042, guid: 54b4f92447090b24c8c3f065ff816f57, type: 3}
   wall5: {fileID: 3446330400947458219, guid: 421b092b55780084b813f4bbb33f67dc, type: 3}
