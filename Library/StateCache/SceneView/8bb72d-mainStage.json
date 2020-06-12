@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":593.0,"y":466.96875,"z":-930.0},"rotation":{"x":0.05090619623661041,"y":-0.052411340177059177,"z":0.002747755032032728,"w":0.9973786473274231},"size":1613.5281982421875,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":0.010498744435608387,"y":-0.006002187263220549,"z":0.00024538845173083246,"w":1.0000041723251343},"size":1368.917724609375,"orthographic":true}
+>>>>>>> 942babe4beba70d18f67e7476cc6a2b592f6fc72
