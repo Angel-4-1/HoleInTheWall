@@ -23,7 +23,7 @@ public class Wall : MonoBehaviour
         hit_by_user = false;
         is_end = false;
         //find wall's collider
-        myCollider = GetComponent<Collider>();
+        //myCollider = GetComponent<Collider>();
     }
 
     // Update is called once per frame
@@ -72,7 +72,7 @@ public class Wall : MonoBehaviour
 
         SoundManager.Instance.PlayEndSound();
 
-        myCollider.isTrigger = false;
+        //myCollider.isTrigger = false;
         Destroy(gameObject, destroyDelayWithWallDestroyer);
     }
 
