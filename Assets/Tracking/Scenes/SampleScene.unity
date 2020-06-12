@@ -183,11 +183,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canSpawn: 1
   wall0: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
-  wall1: {fileID: 8106439385112460587, guid: 6daaf1de64776954099af2e5839d711f, type: 3}
-  wall2: {fileID: 19128235652479817, guid: 5327ecdfd6931bf4c874f3fcd6cd67be, type: 3}
-  wall3: {fileID: 5288960512306303785, guid: 58503a693bdb44147af59945b13f5648, type: 3}
-  wall4: {fileID: 6419142854478067150, guid: 08a72512093ac9640a0171c3a81df92f, type: 3}
-  wall5: {fileID: 2102171798139952681, guid: b631dcfa0c6f7bf4d841a073b7cab513, type: 3}
+  wall1: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall2: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall3: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall4: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
+  wall5: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
   wall6: {fileID: 4070248155575914243, guid: 30677fa7c0129104fa0890c35b4b45e0, type: 3}
   wall7: {fileID: 19128235652479817, guid: 5327ecdfd6931bf4c874f3fcd6cd67be, type: 3}
   wall8: {fileID: 5288960512306303785, guid: 58503a693bdb44147af59945b13f5648, type: 3}
@@ -1564,7 +1564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736581562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.013855, y: -56.59105, z: -155.06311}
+  m_LocalPosition: {x: 6.013855, y: -130, z: -155.06311}
   m_LocalScale: {x: 19.605547, y: 12.162341, z: 28.378798}
   m_Children:
   - {fileID: 569096268}
