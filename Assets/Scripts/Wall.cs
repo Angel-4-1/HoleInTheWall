@@ -8,6 +8,7 @@ public class Wall : MonoBehaviour
     public float speed;
     public float destroyDelayWithUser;
     private bool hit_by_user;
+    private bool is_end;
 
     //for destroying the wall when it arrives at the end of the plane
     public float destroyDelayWithWallDestroyer;      //time to be destroyed
@@ -20,6 +21,7 @@ public class Wall : MonoBehaviour
     void Start()
     {
         hit_by_user = false;
+        is_end = false;
         //find wall's collider
         myCollider = GetComponent<Collider>();
     }
@@ -36,8 +38,9 @@ public class Wall : MonoBehaviour
         {
             HitByUser();
         }
-        else if (other.CompareTag("destroyWall"))
+        else if (other.CompareTag("destroyWall") && !is_end)
         {
+            is_end = true;
             arrivedAtTheEnd();
         }
     }
@@ -49,6 +52,8 @@ public class Wall : MonoBehaviour
 
         //remove the wall from the list
         wallSpawner.RemoveWallFromList(gameObject);
+
+        SoundManager.Instance.PlayHitSound();
 
         hit_by_user = true;
         speed = 0;
@@ -64,6 +69,8 @@ public class Wall : MonoBehaviour
 
         //remove the wall from the list
         wallSpawner.RemoveWallFromList(gameObject);
+
+        SoundManager.Instance.PlayEndSound();
 
         myCollider.isTrigger = false;
         Destroy(gameObject, destroyDelayWithWallDestroyer);

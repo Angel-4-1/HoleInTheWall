@@ -38,6 +38,7 @@ public class GameStateManager : MonoBehaviour
         wallSpawner.canSpawn = false;
         wallSpawner.DestroyAllWalls();
         UIManager.Instance.ShowGameOverWindow();
+        SoundManager.Instance.PlayGameOverSound();
     }
 
     public void failedWall()
