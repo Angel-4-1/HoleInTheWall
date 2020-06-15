@@ -533,6 +533,7 @@ MonoBehaviour:
   wallPassed: 0
   wallFailed: 0
   wallFailedToGameOver: 5
+  wallpassedToGameWin: 5
   wallSpawner: {fileID: 138576209}
 --- !u!1 &513575872
 GameObject:
@@ -580,6 +581,7 @@ MonoBehaviour:
   wallPassedText: {fileID: 240123015}
   wallFailedText: {fileID: 2080952487}
   gameOverWindow: {fileID: 1485359111}
+  gameWinWindow: {fileID: 735714566}
 --- !u!1 &566567185
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +743,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6565409, y: 1.6126894, z: 0.9999997}
   m_Center: {x: -0.00003789297, y: -0.3063489, z: -0.00000047047234}
+--- !u!1 &735714566 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8934426092139353670, guid: bb3406e5ce7edfa4aa6daa3a5667a174,
+    type: 3}
+  m_PrefabInstance: {fileID: 1378864427}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &737721798 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4056417939438021028, guid: 7c69ffafb0fb5d8419494d2d906f11aa,

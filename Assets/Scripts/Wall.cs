@@ -12,7 +12,6 @@ public class Wall : MonoBehaviour
 
     //for destroying the wall when it arrives at the end of the plane
     public float destroyDelayWithWallDestroyer;      //time to be destroyed
-    private Collider myCollider;    //wall's collider
 
     //spawner
     private WallSpawner wallSpawner;
@@ -22,8 +21,6 @@ public class Wall : MonoBehaviour
     {
         hit_by_user = false;
         is_end = false;
-        //find wall's collider
-        //myCollider = GetComponent<Collider>();
     }
 
     // Update is called once per frame

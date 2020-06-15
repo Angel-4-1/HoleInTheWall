@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public Text wallPassedText;
     public Text wallFailedText;
     public GameObject gameOverWindow;
+    public GameObject gameWinWindow;
 
     void Awake()
     {
@@ -31,5 +32,11 @@ public class UIManager : MonoBehaviour
     public void ShowGameOverWindow()
     {
         gameOverWindow.SetActive(true);
+    }
+
+    //render game win window
+    public void ShowGameWinWindow()
+    {
+        gameWinWindow.SetActive(true);
     }
 }

@@ -14,6 +14,7 @@ public class GameStateManager : MonoBehaviour
     public int wallFailed;
 
     public int wallFailedToGameOver;
+    public int wallpassedToGameWin;
     public WallSpawner wallSpawner;
 
     void Awake()
@@ -31,6 +32,11 @@ public class GameStateManager : MonoBehaviour
     {
         wallPassed++;
         UIManager.Instance.UpdateWallPassed();
+
+        if (wallPassed == wallpassedToGameWin)
+        {
+            GameWin();
+        }
     }
 
     private void GameOver()
@@ -38,6 +44,14 @@ public class GameStateManager : MonoBehaviour
         wallSpawner.canSpawn = false;
         wallSpawner.DestroyAllWalls();
         UIManager.Instance.ShowGameOverWindow();
+        SoundManager.Instance.PlayGameOverSound();
+    }
+
+    private void GameWin()
+    {
+        wallSpawner.canSpawn = false;
+        wallSpawner.DestroyAllWalls();
+        UIManager.Instance.ShowGameWinWindow();
         SoundManager.Instance.PlayGameOverSound();
     }
 
